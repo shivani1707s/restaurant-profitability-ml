@@ -1,0 +1,37 @@
+# Virtual environment
+.pavenv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# ML models
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.keras
+
+# Dataset
+data/*.csv
+
+# Generated outputs
+outputs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
