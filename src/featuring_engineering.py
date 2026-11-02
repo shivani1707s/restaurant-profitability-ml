@@ -40,7 +40,7 @@ def bulid_features(df: pd.DataFrame):
     if missing:
         raise ValueError(f"Missing required columns: {missing}")
     
-    X = df[FEATURE_COLUMNS ].copy()
+    X = df[FEATURE_COLUMN].copy()
     
     y = df[PROFIT_COLUMNS].sum(axis=1)
     y.name = TARGET_COLUMN
